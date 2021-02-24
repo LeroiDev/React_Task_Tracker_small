@@ -1,9 +1,12 @@
-function App() {
-  return (
+import Header from "./components/Header";
+
+const App = () =>{
+return(
     <div className="container">
-        <h1>TASK TRACKER</h1>
+      <Header/>
     </div>
   );
 }
+
 
 export default App;
